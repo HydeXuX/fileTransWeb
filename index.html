@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="utf-8">
+    <title>FileTrans</title>
+  </head>
+  <body>
+    <p id="p1">Welcome to FileTrans</p>
+    <p id="p2">Please login to your account</p>
+    <br><br>
+    
+    <div class="input_field">
+      <label for="email">Email address:</label><br><br>
+      <input type="text" id="email" name="email" placeholder="email@email.com" required><br><br>
+      <label for="password">Password:</label><br><br>
+      <input type="password" id="pass" name="password" placeholder="Must be longer than 6 characters" required><br><br>
+      <input type="button" id="login" name="login" value="LOGIN">
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="logIn.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAGO0E4wlaFHUMLPQTBobVAOfRTf05Zugs",
+            authDomain: "filetrans-39985.firebaseapp.com",
+            databaseURL: "https://filetrans-39985.firebaseio.com",
+            projectId: "filetrans-39985",
+            storageBucket: "filetrans-39985.appspot.com",
+            messagingSenderId: "856661121858",
+            appId: "1:856661121858:web:73e00ba7ffac9001e606db",
+            measurementId: "G-DV93M7ZY7J"
+          };
+        </script>
+  </body>
+</html>

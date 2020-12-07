@@ -1,0 +1,52 @@
+body{
+  background-color: #141d26;
+  text-align: center
+
+}
+#p1{
+  color: #D2EFEFEF;
+  font-size: 30pt;
+  font-family: open_sans;
+  font-weight: bold;
+}
+#p2{
+  color: #D2EFEFEF;
+  font-size: 22pt;
+  font-family: open_sans;
+
+}
+.input_field{
+  margin: auto;
+  width: 370px;
+  height: 400px;
+  text-align: center;
+}
+label{
+  font-size: 20pt;
+  font-family: open_sans;
+  color: #D2EFEFEF;
+  float: left;
+  padding-left: 15px;
+}
+input{
+  background-color: #243447;
+  height: 50px;
+  width: 350px;
+  font-size: 14pt;
+  font-family: open_sans;
+  color: #D2EFEFEF;
+  border-radius: 5px;
+}
+input:valid{
+  background-color: #243447;
+}
+
+#login{
+  background-color: #009688;
+  width: 80px;
+  height: 50px;
+  float: right;
+  margin-right: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+}

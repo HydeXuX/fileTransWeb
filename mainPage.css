@@ -1,0 +1,83 @@
+body{
+  background-color: #141d26;
+  text-align: center
+}
+#logout{
+  background-color:black;
+  color: white;
+}
+main{
+  width: 400px;
+  margin: 0 auto;
+  text-align: right;
+}
+button, input{
+  border-radius: 3px;
+}
+#wholePage{
+  width: 400px;
+  height: 820px;
+  background-color: #161C40;
+  margin: 0 auto;
+
+}
+#sendBox{
+  display: flex;
+  width: 400px;
+  height: 50px;
+  text-align: right;
+}
+#userInput{
+  width: 230px;
+  height: 40px;
+  font-size: 15pt;
+  margin: auto;
+  background-color: #243447;
+  color: white;
+}
+#chooseBtn{
+  width:70px;
+  height: 45px;
+  padding: 0;
+  background-color: #141D3A;
+  color: white;
+  margin: auto;
+  font-size: 11pt;
+}
+#sendBtn{
+  width:70px;
+  height: 45px;
+  padding: 0;
+  background-color: #141D3A;
+  color: white;
+  margin: auto;
+}
+#chatList{
+  overflow-y: scroll;
+  background-color: #243447;
+  height: 700px;
+  /* display: flex;
+  flex-direction: column-reverse; */
+}
+
+li{
+  display: flex;
+  flex-direction: column-reverse;
+  color: white;
+  font-family: "open-sans";
+  font-size: 15pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p{
+  padding: 8px;
+  margin:0px;
+  margin-bottom: 2px;
+  max-width: 400px;
+  max-height: 500px;
+  /* display: flex; */
+}
+#chatBox,#fileBox{
+  width: fit-content;
+  display: block;
+}
